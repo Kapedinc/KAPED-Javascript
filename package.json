@@ -1,6 +1,6 @@
 {
   "name": "kaped_partner_api",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "Object",
   "license": "Unlicense",
   "main": "src/index.js",

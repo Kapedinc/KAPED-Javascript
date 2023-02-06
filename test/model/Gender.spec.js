@@ -29,20 +29,29 @@
   var instance;
 
   describe('(package)', function() {
-    describe('ViewCardDetail', function() {
+    describe('Gender', function() {
       beforeEach(function() {
-        instance = new KapedPartnerApi.ViewCardDetail();
+        instance = KapedPartnerApi.Gender;
       });
 
-      it('should create an instance of ViewCardDetail', function() {
-        // TODO: update the code to test ViewCardDetail
-        expect(instance).to.be.a(KapedPartnerApi.ViewCardDetail);
+      it('should create an instance of Gender', function() {
+        // TODO: update the code to test Gender
+        expect(instance).to.be.a('object');
       });
 
-      it('should have the property userUniqueId (base name: "userUniqueId")', function() {
-        // TODO: update the code to test the property userUniqueId
-        expect(instance).to.have.property('userUniqueId');
-        // expect(instance.userUniqueId).to.be(expectedValueLiteral);
+      it('should have the property male', function() {
+        expect(instance).to.have.property('male');
+        expect(instance.male).to.be("Male");
+      });
+
+      it('should have the property female', function() {
+        expect(instance).to.have.property('female');
+        expect(instance.female).to.be("Female");
+      });
+
+      it('should have the property transgender', function() {
+        expect(instance).to.have.property('transgender');
+        expect(instance.transgender).to.be("Transgender");
       });
 
     });

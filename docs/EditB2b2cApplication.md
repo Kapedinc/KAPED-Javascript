@@ -1,4 +1,4 @@
-# KapedPartnerApi.EditApplication
+# KapedPartnerApi.EditB2b2cApplication
 
 ## Properties
 Name | Type | Description | Notes
