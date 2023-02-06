@@ -29,20 +29,24 @@
   var instance;
 
   describe('(package)', function() {
-    describe('ViewCardDetail', function() {
+    describe('Ownership', function() {
       beforeEach(function() {
-        instance = new KapedPartnerApi.ViewCardDetail();
+        instance = KapedPartnerApi.Ownership;
       });
 
-      it('should create an instance of ViewCardDetail', function() {
-        // TODO: update the code to test ViewCardDetail
-        expect(instance).to.be.a(KapedPartnerApi.ViewCardDetail);
+      it('should create an instance of Ownership', function() {
+        // TODO: update the code to test Ownership
+        expect(instance).to.be.a('object');
       });
 
-      it('should have the property userUniqueId (base name: "userUniqueId")', function() {
-        // TODO: update the code to test the property userUniqueId
-        expect(instance).to.have.property('userUniqueId');
-        // expect(instance.userUniqueId).to.be(expectedValueLiteral);
+      it('should have the property _public', function() {
+        expect(instance).to.have.property('_public');
+        expect(instance._public).to.be("public");
+      });
+
+      it('should have the property _private', function() {
+        expect(instance).to.have.property('_private');
+        expect(instance._private).to.be("private");
       });
 
     });

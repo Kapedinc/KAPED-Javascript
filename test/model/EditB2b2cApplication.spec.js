@@ -29,14 +29,14 @@
   var instance;
 
   describe('(package)', function() {
-    describe('EditApplication', function() {
+    describe('EditB2b2cApplication', function() {
       beforeEach(function() {
-        instance = new KapedPartnerApi.EditApplication();
+        instance = new KapedPartnerApi.EditB2b2cApplication();
       });
 
-      it('should create an instance of EditApplication', function() {
-        // TODO: update the code to test EditApplication
-        expect(instance).to.be.a(KapedPartnerApi.EditApplication);
+      it('should create an instance of EditB2b2cApplication', function() {
+        // TODO: update the code to test EditB2b2cApplication
+        expect(instance).to.be.a(KapedPartnerApi.EditB2b2cApplication);
       });
 
       it('should have the property applicationID (base name: "applicationID")', function() {

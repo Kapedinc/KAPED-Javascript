@@ -20,14 +20,14 @@ import {SIC} from './SIC';
 import {States} from './States';
 
 /**
- * The EditApplication model module.
- * @module model/EditApplication
+ * The EditB2b2cApplication model module.
+ * @module model/EditB2b2cApplication
  * @version 1.2.0
  */
-export class EditApplication {
+export class EditB2b2cApplication {
   /**
-   * Constructs a new <code>EditApplication</code>.
-   * @alias module:model/EditApplication
+   * Constructs a new <code>EditB2b2cApplication</code>.
+   * @alias module:model/EditB2b2cApplication
    * @class
    * @param applicationID {String} 
    * @param partnerBusinessName {String} 
@@ -78,15 +78,15 @@ export class EditApplication {
   }
 
   /**
-   * Constructs a <code>EditApplication</code> from a plain JavaScript object, optionally creating a new instance.
+   * Constructs a <code>EditB2b2cApplication</code> from a plain JavaScript object, optionally creating a new instance.
    * Copies all relevant properties from <code>data</code> to <code>obj</code> if supplied or a new instance if not.
    * @param {Object} data The plain JavaScript object bearing properties of interest.
-   * @param {module:model/EditApplication} obj Optional instance to populate.
-   * @return {module:model/EditApplication} The populated <code>EditApplication</code> instance.
+   * @param {module:model/EditB2b2cApplication} obj Optional instance to populate.
+   * @return {module:model/EditB2b2cApplication} The populated <code>EditB2b2cApplication</code> instance.
    */
   static constructFromObject(data, obj) {
     if (data) {
-      obj = obj || new EditApplication();
+      obj = obj || new EditB2b2cApplication();
       if (data.hasOwnProperty('applicationID'))
         obj.applicationID = ApiClient.convertToType(data['applicationID'], 'String');
       if (data.hasOwnProperty('partnerBusinessName'))
@@ -147,132 +147,132 @@ export class EditApplication {
 /**
  * @member {String} applicationID
  */
-EditApplication.prototype.applicationID = undefined;
+EditB2b2cApplication.prototype.applicationID = undefined;
 
 /**
  * @member {String} partnerBusinessName
  */
-EditApplication.prototype.partnerBusinessName = undefined;
+EditB2b2cApplication.prototype.partnerBusinessName = undefined;
 
 /**
  * YYYY-MM-DD
  * @member {String} partnerDateIncorporated
  */
-EditApplication.prototype.partnerDateIncorporated = undefined;
+EditB2b2cApplication.prototype.partnerDateIncorporated = undefined;
 
 /**
  * @member {module:model/Business} partnerBusinessType
  */
-EditApplication.prototype.partnerBusinessType = undefined;
+EditB2b2cApplication.prototype.partnerBusinessType = undefined;
 
 /**
  * @member {String} partnerBusinessAddress
  */
-EditApplication.prototype.partnerBusinessAddress = undefined;
+EditB2b2cApplication.prototype.partnerBusinessAddress = undefined;
 
 /**
  * @member {String} partnerStreet2
  */
-EditApplication.prototype.partnerStreet2 = undefined;
+EditB2b2cApplication.prototype.partnerStreet2 = undefined;
 
 /**
  * @member {String} partnerGeneralInformationCity
  */
-EditApplication.prototype.partnerGeneralInformationCity = undefined;
+EditB2b2cApplication.prototype.partnerGeneralInformationCity = undefined;
 
 /**
  * @member {module:model/States} partnerGeneralInformationState
  */
-EditApplication.prototype.partnerGeneralInformationState = undefined;
+EditB2b2cApplication.prototype.partnerGeneralInformationState = undefined;
 
 /**
  * @member {Number} partnerGeneralInformationZip
  */
-EditApplication.prototype.partnerGeneralInformationZip = undefined;
+EditB2b2cApplication.prototype.partnerGeneralInformationZip = undefined;
 
 /**
  * @member {String} partnerWebsite
  */
-EditApplication.prototype.partnerWebsite = undefined;
+EditB2b2cApplication.prototype.partnerWebsite = undefined;
 
 /**
  * @member {module:model/SIC} partnerSIC
  */
-EditApplication.prototype.partnerSIC = undefined;
+EditB2b2cApplication.prototype.partnerSIC = undefined;
 
 /**
  * @member {module:model/Ownership} partnerOwnership
  */
-EditApplication.prototype.partnerOwnership = undefined;
+EditB2b2cApplication.prototype.partnerOwnership = undefined;
 
 /**
  * @member {String} partnerBusinessDescription
  */
-EditApplication.prototype.partnerBusinessDescription = undefined;
+EditB2b2cApplication.prototype.partnerBusinessDescription = undefined;
 
 /**
  * @member {Number} partnerBusinessFax
  */
-EditApplication.prototype.partnerBusinessFax = undefined;
+EditB2b2cApplication.prototype.partnerBusinessFax = undefined;
 
 /**
  * @member {Number} partnerInitialCreditLimit
  */
-EditApplication.prototype.partnerInitialCreditLimit = undefined;
+EditB2b2cApplication.prototype.partnerInitialCreditLimit = undefined;
 
 /**
  * @member {String} partnerCustomerInformationFirstName
  */
-EditApplication.prototype.partnerCustomerInformationFirstName = undefined;
+EditB2b2cApplication.prototype.partnerCustomerInformationFirstName = undefined;
 
 /**
  * @member {String} partnerCustomerInformationLastName
  */
-EditApplication.prototype.partnerCustomerInformationLastName = undefined;
+EditB2b2cApplication.prototype.partnerCustomerInformationLastName = undefined;
 
 /**
  * @member {String} partnerCustomerInformationHomeAddress
  */
-EditApplication.prototype.partnerCustomerInformationHomeAddress = undefined;
+EditB2b2cApplication.prototype.partnerCustomerInformationHomeAddress = undefined;
 
 /**
  * @member {String} partnerCustomerInformationHomeStreet2
  */
-EditApplication.prototype.partnerCustomerInformationHomeStreet2 = undefined;
+EditB2b2cApplication.prototype.partnerCustomerInformationHomeStreet2 = undefined;
 
 /**
  * @member {module:model/States} partnerCustomerInformationState
  */
-EditApplication.prototype.partnerCustomerInformationState = undefined;
+EditB2b2cApplication.prototype.partnerCustomerInformationState = undefined;
 
 /**
  * @member {String} partnerCustomerInformationCity
  */
-EditApplication.prototype.partnerCustomerInformationCity = undefined;
+EditB2b2cApplication.prototype.partnerCustomerInformationCity = undefined;
 
 /**
  * @member {Number} partnercustomerInformationZip
  */
-EditApplication.prototype.partnercustomerInformationZip = undefined;
+EditB2b2cApplication.prototype.partnercustomerInformationZip = undefined;
 
 /**
  * @member {Number} partnerCustomerInformationPercentOwnership
  */
-EditApplication.prototype.partnerCustomerInformationPercentOwnership = undefined;
+EditB2b2cApplication.prototype.partnerCustomerInformationPercentOwnership = undefined;
 
 /**
  * YYYY-MM-DD
  * @member {String} partnerCustomerInformationDOB
  */
-EditApplication.prototype.partnerCustomerInformationDOB = undefined;
+EditB2b2cApplication.prototype.partnerCustomerInformationDOB = undefined;
 
 /**
  * @member {Boolean} haveInsurance
  */
-EditApplication.prototype.haveInsurance = undefined;
+EditB2b2cApplication.prototype.haveInsurance = undefined;
 
 /**
  * @member {module:model/Gender} gender
  */
-EditApplication.prototype.gender = undefined;
+EditB2b2cApplication.prototype.gender = undefined;
 
