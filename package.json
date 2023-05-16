@@ -5,7 +5,9 @@
   "license": "Unlicense",
   "main": "src/index.js",
   "scripts": {
+    "tsc": "tsc",
     "test": "mocha --require @babel/register --recursive"
+    
   },
   "browser": {
     "fs": false
@@ -37,6 +39,7 @@
     "@babel/register": "^7.0.0",
     "expect.js": "^0.3.1",
     "mocha": "^10.2.0",
-    "sinon": "^7.2.0"
+    "sinon": "^7.2.0",
+    "typescript": "^5.0.4"
   }
 }
